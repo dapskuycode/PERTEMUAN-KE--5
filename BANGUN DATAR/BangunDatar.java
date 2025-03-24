@@ -74,5 +74,14 @@ public abstract  class BangunDatar{
 
 
 //JAWABAN
-/*Dalam Java, jika sebuah kelas menggunakan implements untuk mengadopsi sebuah interface, maka harus merealisasikan semua metodenya. 
-  Jika tidak, kelas tersebut harus dideklarasikan sebagai abstract. */
+/*SOAL 1*/
+/*Ya, karena method isEqualLuas() didefinisikan dalam superclass BangunDatar, 
+  sehingga dapat digunakan untuk membandingkan luas dari berbagai jenis bangun datar yang merupakan turunannya.*/
+
+/*SOAL 2*/
+/*Tidak, karena setiap bangun datar memiliki rumus luas dan keliling yang berbeda. Jika BangunDatar bukan abstract class,
+  maka tidak mungkin mendefinisikan implementasi umum untuk kedua method tersebut. */
+
+/*SOAL 3*/
+/*Dengan menjadikan BangunDatar sebagai abstract class, kita dapat mendefinisikan method abstrak yang harus diimplementasikan oleh subclass, 
+  memastikan bahwa setiap bentuk bangun datar memiliki rumus luas dan kelilingnya sendiri.*/ 
